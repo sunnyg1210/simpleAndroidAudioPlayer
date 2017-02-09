@@ -5,22 +5,22 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="354417789551468"
+    timestamp="355655668206657"
     token="-3771371926890500069"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="145" />
+        duration="132" />
     <task
         name="instant-run-dex"
-        duration="18" />
+        duration="14" />
     <task
         name="instant-run-transform"
-        duration="76" />
+        duration="61" />
     <task
         name="verifier"
-        duration="8" />
+        duration="4" />
 
     <artifact
         location="C:\AndroidStudioFiles\SimpleAudioPlayer\app\build\intermediates\reload-dex\debug\classes.dex"
@@ -48,14 +48,21 @@
             type="RESOURCES" />
     </build>
     <build
-        timestamp="354332548240743"
-        verifier="CLASS_ADDED" >
+        timestamp="355596547999556"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\AndroidStudioFiles\SimpleAudioPlayer\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
             type="DEX" />
     </build>
     <build
-        timestamp="354417789551468"
+        timestamp="355640152254096"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\AndroidStudioFiles\SimpleAudioPlayer\app\build\intermediates\builds\debug\355640152254096\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="355655668206657"
         verifier="COMPATIBLE" >
         <artifact
             location="C:\AndroidStudioFiles\SimpleAudioPlayer\app\build\intermediates\reload-dex\debug\classes.dex"
