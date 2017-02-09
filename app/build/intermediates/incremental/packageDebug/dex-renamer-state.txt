@@ -1,0 +1,7 @@
+#Thu Feb 09 14:23:02 GMT 2017
+base.0=C\:\\AndroidStudioFiles\\SimpleAudioPlayer\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d3033c7cdb1f77cb6b3537b6f1a0583d8e2371ad
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\AndroidStudioFiles\\SimpleAudioPlayer\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_3fa2352280d30d257e01aed952780299cbf7993e\\classes.dex
+base.1=C\:\\AndroidStudioFiles\\SimpleAudioPlayer\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_3fa2352280d30d257e01aed952780299cbf7993e
+file.0=C\:\\AndroidStudioFiles\\SimpleAudioPlayer\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d3033c7cdb1f77cb6b3537b6f1a0583d8e2371ad\\classes.dex
