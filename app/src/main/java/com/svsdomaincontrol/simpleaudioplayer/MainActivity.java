@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
     Handler handler;
     Runnable runnable;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,10 +35,12 @@ public class MainActivity extends AppCompatActivity {
         handler = new Handler();
 
         mp = MediaPlayer.create(this, R.raw.song);
+        stop.setVisibility(stop.INVISIBLE);
 
-        play.setOnClickListener(new View.OnClickListener() {
+         play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                stop.setVisibility(stop.VISIBLE);
                 play();
                 playCycle();
             }
@@ -55,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
         stop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                stop.setVisibility(stop.INVISIBLE);
                 if (mp.isPlaying()) {
                     mp.pause();
                     mp.seekTo(0);
@@ -69,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         mp.start();
 
         seekbar.setMax(mp.getDuration());
-
+        seekbar.setProgress(0);
         seekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
